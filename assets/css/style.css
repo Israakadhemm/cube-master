@@ -360,7 +360,7 @@ body.active { overflow: hidden; }
 
 .navbar-title {
   color: var(--black_40);
-  text-align: center;
+  text-align:right;
   padding: 12px;
   border-block-end: 1px solid var(--black_15);
 }
@@ -429,7 +429,7 @@ body.active { overflow: hidden; }
 
 .service { background-color: var(--snow); }
 
-.service .section-text { margin-block-end: 10px; }
+.service .section-text {  margin-block-end: 10px; }
 
 .service-card {
   background-color: var(--white);
