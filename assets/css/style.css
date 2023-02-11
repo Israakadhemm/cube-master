@@ -840,9 +840,11 @@ body.active { overflow: hidden; }
    */
 
   .footer-top { grid-template-columns: 1fr 0.7fr 0.7fr 0.7fr; }
-  input { type= text
-    direction="ltr" width: 100%;
-  }
+input[type=text]{ 
+  boreder-radius: 4px;
+  direction:rtl;
+}
+
 
 }
 
